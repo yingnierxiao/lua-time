@@ -50,7 +50,7 @@ static int ul_timeofday(lua_State *L) {
     return 2;                      // number of results
 }
 
-static const luaL_reg lib_ul_time[] = {
+static const luaL_Reg lib_ul_time[] = {
     {"delay_us",  ul_time_delay_us},
     {"delay_ms",  ul_time_delay_ms},
     {"delay_s",   ul_time_delay_s},
